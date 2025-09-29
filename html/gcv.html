@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html class="no-js htmlCustom" lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<title>Insurance</title>
+<!-- demo-specific styles -->
+<!--CSS Files-->
+<link rel="stylesheet" href="css/common_compress_style.css">
+<link rel="stylesheet" href="css/style_new.css">
+</head>
+<body class="">
+<div class="bg">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid" id="pos_main_tp_nv">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="slide-collapse" aria-expanded="false" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt="" class="log-pos"></a>
+        <div class="closeNav"></div>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class=" mobileYes"><a href="#"><img src="images/user.png" alt="" class="usreIcon">SATENDER</a></li>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li class="mobileYes"><a href="my-profile.html">My Profile</a></li>
+          <li class="mobileYes"><a href="#">Logout</a></li>
+          <li class="dropdown lastli_border  mobileNo"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="images/user.png" alt="" class="usreIcon">SATENDER <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="my-profile.html">My Profile</a></li>
+              <li><a href="#">Logout</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--Header Ends-->
+  
+  <div class="sec_tab sectionHeader2 carInfo">
+    <div class="container-fluid">
+      <div class="subHeading"> <a href="index.html"><img src="images/ic_car.svg" class="imgIc">Car</a> <a href="bikeinfo.html"><img src="images/ic_bike.svg" class="imgIc">Bike</a><a href="pcv.html"><img src="images/ic_pcv.svg" class="imgIc">PCV</a><a class="active" href="gcv.html"><img src="images/gcv.svg" class="imgIc">GCV</a> </div>
+    </div>
+  </div>
+  <!-- Tab Section -->
+  <div id="" class="container-fluid container_space_2">
+    <div class="row">
+      <div class="col-md-12">
+        <h3 class="mainHeading mainHeading_2" style="display:inline-block;margin-bottom:21px;">Get Plans from Multiple Insurers</h3>
+        
+      </div>
+    </div>
+    <section class="contentSection mainFilter bikeBox" id="bikeBox">
+      <div class="tabSec">
+        <div class="row">
+          <div class="col-md-12 tabbable-line">
+            <ul class="nav nav-tabs" role="tablist" id="myTab">
+              <li class="active"><a href="#expPolicy" class="carInfoTab" role="tab" data-toggle="tab">Expired Policy  </a></li>              
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div class="tab-pane active" id="expPolicy">
+              <form role="form">
+                  <div class="row">
+                    <div class="col-md-12 mrg-B0  mrg-T10">
+                      <h3 class="SubHeading"><span id="staticMessage"><span id="reg_condition">Or</span> Provide details below to proceed</span></h3>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4 mobSumo">
+                      <div class="form-group">
+                        <label for="" class="liteLabel">Registration Year</label>
+                          <select class="search-box " name="registration_year" >
+                            <option value="">Select Registration Year</option>
+                            <option value="2020">2020</option>
+                            <option value="2019">2019</option>
+                            <option value="2018">2018</option>
+                            <option value="2017">2017</option>
+                            <option value="2016">2016</option>
+                          </select>
+                          
+                      </div>
+                    </div>
+                    <div class="col-md-4 mobSumo">
+                      <div class="form-group">
+                        <label for="" class="liteLabel">Make / Model</label>
+                          <select class="search-box" name="make_model" id="make_model" tabindex="-1">
+                            <option value="">Select Make/Model</option>
+                            <option value="624">Maruti S-Cross</option>
+                            <option value="229">Honda Jazz</option>
+                            <option value="614">Maruti Swift</option>
+                            <option value="617">Maruti Dzire</option>
+                            <option value="588">Maruti Celerio</option>
+                          </select>
+                          
+                      </div>
+                    </div>
+                    <div class="col-md-4 mobSumo">
+                      <div class="form-group">
+                        <label for="" class="liteLabel">Fuel Type</label>
+                          <select class="search-box" name="fuel_type">
+                            <option value="">Select Fuel Type</option>
+                            <option value="Petrol">Petrol</option>
+                            <option value="Diesel">Diesel</option>
+                            <option value="Electric">Electric</option>
+                            <option value="ExternalCNG">CNG/LPG Externally Fitted</option>
+                          </select>
+                          
+                      </div>
+                    </div>
+                    <div class="col-md-4 mobSumo">
+                      <div class="form-group">
+                        <label for="" class="liteLabel">Variant</label>
+                          <select class="search-box " name="variant" id="variant">
+                            <option value="">Select Variant</option>
+                          </select>
+                          
+                      </div>
+                    </div>
+                    <div class="col-md-4 mobSumo">
+                      <div class="form-group">
+                        <label for="" class="liteLabel">RTO/City</label>
+                          <select class="search-box" name="rto_city">
+                            <option value="">Select RTO City</option>
+                            <option value="RJ47"> Dudu, Jaipur-RJ47</option>
+                            <option value="PB15">Abohar-PB15</option>
+                            <option value="HR53">Adampur-HR53</option>
+                            <option value="TS01">Adilabad-TS01</option>
+                            <option value="KL26">Adoor-KL26</option>
+                            <option value="MP70">Agar Malwa-MP70</option>
+                          </select>
+                          
+                        </div>
+                    </div>
+                    <div class="col-md-4 mobSumo">
+                      <div class="form-group">
+                        <label for="" class="liteLabel">GCV car premium valadtion;(new india)</label>
+                          <select class="search-box" name="rto_city">
+                            <option value="">Select Premium validation</option>
+                            <option value="7500kgs premium 18580">7500kgs premium 18580</option>
+                            <option value="7500kgs 12000kgs premium (31783)">7500kgs to 12000kgs premium (31783)</option>
+                            <option value="12000kgs 20000kgs premium (39433)">12000kgs 20000kgs premium (39433)</option>
+                            <option value="20000kgs to 40000kgs premium (50783)">20000kgs to 40000kgs premium (50783)</option>
+                            <option value="40000kgs above premium (49041)">40000kgs above premium (49041)</option>
+                          </select>
+                          
+                        </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4 col-xs-12">
+                      <button type="submit" class="btn filterBtn getQuotes" id="getQuotes" tabindex="11">GET QUOTES</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+<div class="clearfix"></div>
+<!-- Footer -->
+<footer class="text-left footerCustom" style="display: block; height: 81px;">
+  <div class="row">
+    <div class="col-md-5 ftr-left-sec">
+      <p class="copyright"><span class="ftr-cotyright-txt"> © Girnar Insurance Brokers Private Limited. All Rights Reserved<br>
+        </span> Direct Broker (General) IRDAI License Number 588 , Valid Till: 19/03/2023 </p>
+    </div>
+    <div class="col-md-7 pull-right ftr-right-sec">
+      <ul class="foot-policy clearfix">
+        <li><a href="contact-us.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<!--JS files-->
+<script src="js/common_compress_script.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>

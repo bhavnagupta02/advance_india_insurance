@@ -1,0 +1,456 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700,700i,800&display=swap');
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	letter-spacing: 0px;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+img, a img {
+	border: none;
+	outline: none;
+}
+h1, h2, h3, h4 h5, h6 {
+	font-family: 'Roboto',  sans-serif;
+}
+p {
+	font-family:'Roboto',  sans-serif;
+}
+ul, ol {
+	font-family:'Roboto',  sans-serif;
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+input, select, textarea {
+	font-family: 'Roboto',  sans-serif;
+}
+img, a img {
+	border: none;
+	outline: none;
+}
+.clear {
+	clear: both
+}
+.main-row{
+	width:1000px;
+	margin:0px auto;
+}
+/*------------Container------------*/
+#container {
+	width: 100%;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+}
+#wrapper {
+	width: 100%;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+}
+/*------------Header------------*/
+.header {
+	width: 100%;
+	float: left;
+	padding:20px 0px 10px;
+	margin: 0px;
+}
+.header .logo {
+    width: 100%;
+    float: left;
+}
+.header .logo a{
+    float: left;
+}
+.header .logo img {
+    float: left;
+	margin-right:15px;
+}
+.header .logo h1 {
+    display: inline-table;
+    font-size: 20px;
+    color: #000;
+    font-weight: 700;
+	line-height:20px;
+}
+.header .logo p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #000;
+    font-weight: 400;
+    line-height: 20px;
+}
+/*------------Sections------------*/
+.section {
+    float: left;
+    width: 100%;
+    padding: 40px 0px 0px;
+}
+/*------------Policy------------*/
+.policy-details {
+    padding: 0px;
+    width: 100%;
+    float: left;
+}
+.policy-left{
+    padding: 0px 4% 0px 0px;
+    width: 46%;
+    float: left;
+}
+.policy-center{
+    padding: 0px;
+    width:40%;
+    float: left;
+}
+.policy-right{
+    padding: 0px;
+    width: 10%;
+    float: left;
+}
+.policy-details h3 {
+    border-bottom: 2px solid #000;
+    padding: 0px;
+    line-height: 20px;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+	font-size:18px;
+}
+.policy-details ul {
+    float: left;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.policy-details ul  li{
+    float: left;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.policy-details ul li {
+    float: left;
+    width: 100%;
+    margin: 0px;
+    padding:3px 0px;
+    font-size: 14px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+	font-weight:400;
+	line-height:18px
+}
+.policy-details ul li span{
+    float: right;
+    width: 50%;
+    font-weight:700
+}
+/*------------Premium------------*/
+.premium-details {
+    padding: 0px;
+    width: 100%;
+    float: left;
+}
+.premium-details h2 {
+    border-bottom: 2px solid #000;
+    padding: 0px;
+    line-height: 20px;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+	font-size:18px;
+}
+.premium-details table {
+    width: 100%;
+    float: left;
+    border: 1px solid #d3d3d3;
+}
+.premium-details table tr {
+    float: left;
+    width: 100%;
+	border-bottom: 1px solid #d3d3d3;
+}
+.premium-details table tr:last-child{
+	border-bottom:none;
+}
+.premium-details table tr th, .premium-details table tr td {
+    
+    float: left;
+    text-align: left;
+    padding: 5px 1%;
+    font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+    font-size: 13px;
+    display: block;
+}
+.premium-details table tr th {
+    background: #f5f5f5;
+    padding: 6px 1%;
+	width: 98%;
+}
+.premium-details table tr td:nth-child(2) {
+    float: right;
+}
+.premium-details ul {
+    float: left;
+    width: 100%;
+}
+.premium-details ul li{
+    float: left;
+    width: 33.3337%;
+    padding: 0px 0px;
+}
+.premium-details ul li {
+    float: left;
+    width: 33.3337%;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    font-size: 15px;
+    padding: 5px 0px 0px;
+}
+.premium-details ul li span {
+    width: 45%;
+    font-weight: 700;
+    float: right;
+}
+/*------------intermediary------------*/
+.intermediary-details {
+    padding: 0px;
+    width: 100%;
+    float: left;
+}
+.intermediary-details h2 {
+    border-bottom: 2px solid #000;
+    padding: 0px;
+    line-height: 20px;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+	font-size:18px;
+}
+.intermediary-details table {
+    width: 100%;
+    float: left;
+    border: 1px solid #d3d3d3;
+}
+.intermediary-details table tr {
+    float: left;
+    width: 100%;
+	border-bottom: 1px solid #d3d3d3;
+}
+.intermediary-details table tr:last-child{
+	border-bottom:none;
+}
+.intermediary-details table tr th, .intermediary-details table tr td {  
+    float: left;
+    text-align: left;
+    padding: 3px 1%;
+    font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+    font-size: 13px;
+    display: block;
+}
+.intermediary-details table tr td {
+    border-right: 1px solid #d3d3d3;
+    height: 40px;
+}
+.intermediary-details table tr td:last-child{
+	border-right:none
+}
+.intermediary-details table tr .Name {
+    width: 16%;
+}
+.intermediary-details table tr .Code {
+    width: 12%;
+}
+.intermediary-details table tr .Contact {
+    width: 14%;
+}
+.intermediary-details table tr .Email {
+    width: 18%;
+}
+.intermediary-details table tr .Address {
+    width: 29%;
+}
+.intermediary-details table.intermediary-bottom {
+    margin-top: 30px;
+}
+.intermediary-details table.intermediary-bottom tr th, .intermediary-details table.intermediary-bottom tr td {  
+    float: left;
+    text-align: left;
+    padding: 3px 1%;
+    font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+    font-size: 13px;
+    display: block;
+	width:31.3337%;
+}
+/*------------intermediary------------*/
+.Insurance-details{
+    padding:40px 0px;
+    width: 100%;
+    float: left;
+}
+.Insurance-left h2 {
+    padding: 0px;
+    line-height: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+.Insurance-left p {
+    padding: 0px;
+    margin: 0px;
+    line-height: 20px;
+    font-size: 14px;
+}
+.Insurance-left{
+    padding: 0px;
+    width: 55%;
+    float: left;
+}
+.Insurance-right{
+    padding: 0px;
+    width:33%;
+    float: right;
+}
+.Insurance-details .badge {
+    float: left;
+    width: 35%;
+    display: inline-table;
+}
+.Insurance-right .sign {
+    float: left;
+    width: 65% !important;
+    display: inline;
+    text-align: center;
+}
+.Insurance-right p {
+    border-top: 1px solid #000;
+    padding: 6px 0px 0px;
+	line-height: 20px;
+    font-size: 13px;
+}
+/*------------intermediary------------*/
+.Limitations-details{
+    padding: 0px;
+    width: 100%;
+    float: left;
+}
+.Limitations{
+    padding: 0px 0px 40px;
+    width: 100%;
+    float: left;
+}
+.Limitations-details h2 {
+    padding: 0px;
+    line-height: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+.Limitations p {
+    padding: 0px 0px 20px;
+    margin: 0px;
+    line-height: 20px;
+    font-size: 13px;
+}
+
+/*------------Premium------------*/
+.premium-header {
+    padding: 60px 0px 30px;
+    float: left;
+    width: 100%;
+}
+.premium-header.logo {
+    width: 100%;
+    float: left;
+}
+.premium-header .logo a{
+    float: left;
+}
+.premium-header .logo img {
+    float: left;
+	margin-right:15px;
+}
+.premium-header .logo h1 {
+    display: inline-table;
+    font-size: 20px;
+    color: #000;
+    font-weight: 700;
+	line-height:36px;
+}
+.premium-header  p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #000;
+    font-weight: 400;
+    line-height: 24px;
+}
+.premium-header h6 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #000;
+    font-weight: 400;
+    line-height: 24px;
+	padding-bottom:40px
+}
+.premium-section {
+    float: left;
+    width: 100%;
+    padding: 50px 0px 0px;
+}
+/*------------intermediary------------*/
+.Trems-details{
+    padding:40px 0px;
+    width: 100%;
+    float: left;
+}
+.Trems-details h2 {
+    border-bottom: 2px solid #000;
+    padding: 0px;
+    line-height: 20px;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+	font-size:18px;
+}
+.Trems-details p {
+    padding: 0px;
+    margin: 0px;
+    line-height: 24px;
+    font-size: 17px;
+}
+.Prohibition-details{
+    padding:0px 0px 70px;
+    width: 100%;
+    float: left;
+}
+.Prohibition-details p {
+     padding: 0px 0px 20px;
+    margin: 0px;
+    line-height: 24px;
+    font-size: 14px;
+}
+.Prohibition-details p strong{
+	width:100%;
+	float:left;
+}
+.Prohibition-sign{
+    padding:40px 0px 0px;
+    width: 100%;
+    float: left;
+}
+.Prohibition-details  .Prohibition-sign p {
+     padding: 0px;
+    margin: 0px;
+    line-height: 20px;
+    font-size: 14px;
+}

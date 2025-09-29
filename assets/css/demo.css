@@ -1,0 +1,712 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+@font-face {
+ font-family: 'Roboto-Regular';
+ src: url('../fonts/Roboto-Regular.eot');
+ src: local('â˜º'), url('../fonts/Roboto-Regular.woff') format('woff'), url('../fonts/Roboto-Regular.ttf') format('truetype'), url('../fonts/Roboto-Regular.svg') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+body {
+	font-family:'Roboto-Regular', sans-serif;
+}
+/*body, html {
+	height: 100%;
+}*/
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/*.bgwall{ background:url(../images/gi-bg.jpg) center center;width: 100%;height: 100%;background-size: cover;}*/
+
+
+/* GIRNAR HEADER PAGE CSS */
+#girnarinsurance .gi-bg {
+	background: #333845 none repeat scroll 0 0;
+	padding: 10px;
+	border: 0px;
+	border-radius: 0px;
+}
+#girnarinsurance .logo-text {
+	font-size: 26px;
+	font-weight: 300;
+	color: #ffffff;
+}
+#girnarinsurance .logo-text span {
+	color: #dd4c2a;
+	font-weight: bold;
+}
+#girnarinsurance .gi-caltxt {
+	opacity: 0.54;
+	font-size: 16px !important;
+	color: #ffffff;
+}
+#girnarinsurance .gi-numtxt {
+	opacity: 0.87;
+	font-size: 16px;
+	font-weight: 500;
+	color: #ffffff;
+}
+/*.log-pos{margin-top: -5px;}*/
+
+
+/* GIRNAR FOOTER PAGE CSS */
+
+#girnarfooter .footer-bottom {
+	opacity: 0.54;
+	color: #ffffff;
+	font-size: 12px;
+}
+#girnarfooter .footer-bottom a {
+	color: #ffffff;
+}
+#girnarfooter .footer-bottom a:hover {
+	color: #fff;
+}
+#girnarfooter .footer-bottom .left-text {
+	float: right;
+	text-align: right;
+	font-size:14px;
+}
+#girnarfooter .footer-bottom .right-text {
+	float: left;
+	text-align: left;
+}
+#girnarfooter.foot {
+	width: 100%;
+	bottom: 0;
+}
+/* GIRNAR FOOTER1 PAGE CSS */
+
+#girnarfooternew .footer-bottom {
+	opacity: 0.54;
+	color: #000;
+	font-size: 12px;
+	margin-top: 15px;
+}
+#girnarfooternew .footer-bottom a {
+	color: #000;
+}
+#girnarfooternew .footer-bottom a:hover {
+	color: #000;
+}
+#girnarfooternew .footer-bottom .left-text {
+	float: right;
+	text-align: right;
+	font-size:14px;
+}
+#girnarfooternew .footer-bottom .right-text {
+	float: left;
+	text-align: left;
+}
+#girnarfooternew.foot {
+	width: 100%;
+	background: #eaeaea;
+	padding: 10px;
+}
+/* GIRNAR FOOTER2 PAGE CSS */
+
+#girnarfooternew2 .footer-bottom {
+	opacity: 0.54;
+	color: #000;
+	font-size: 12px;
+	margin-top: 15px;
+}
+#girnarfooternew2 .footer-bottom a {
+	color: #000;
+}
+#girnarfooternew2 .footer-bottom a:hover {
+	color: #000;
+}
+#girnarfooternew2 .footer-bottom .left-text {
+	float: right;
+	text-align: right;
+	font-size:14px;
+}
+#girnarfooternew2 .footer-bottom .right-text {
+	float: left;
+	text-align: left;
+}
+#girnarfooternew2.foot {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background: #eaeaea;
+	padding: 10px;
+}
+/* GIRNAR LOGIN PAGE CSS */
+
+.girnarlogin input {
+	font-size: 100%;
+	line-height: normal;
+}
+.girnarlogin .login {
+	background-color: #fff;
+	width: 355px;
+	padding: 40px 20px;
+	margin: 35px auto;
+	border-radius: 8px;
+	box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.girnarlogin .login-label, .girnarlogin .login-field {
+	display: block;
+	font-size: 14px;
+	color: #000000;
+	font-weight: bold;
+}
+.girnarlogin .login-field {
+	background-color: #fff;
+	border: solid 1px #d9d9d9;
+	margin: 0;
+	padding: 12px;
+	position: relative;
+	width: 100%;
+	color: #000;
+	opacity: .87;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+.girnarlogin .login-field:focus {
+	border-color: #dd4c2a;
+	outline: transparent;
+	z-index: 2;
+}
+.girnarlogin .inputplaceholder .login-field-username {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	margin-bottom: -2px;
+}
+.girnarlogin .inputplaceholder .login-field-password {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+.girnarlogin .hideShowPassword-toggle, .girnarlogin.my-toggle {
+	z-index: 3;
+}
+.girnarlogin .heading-wrap {
+	color: #fff;
+	margin-top: 100px;
+}
+.heading-wrap h1 {
+	font-size: 42px;
+	color: #fff;
+	margin: auto;
+	text-align: center;
+	padding: 10px 0 15px;
+	line-height: 40px;
+}
+.heading-wrap1 {
+	color: #000;
+}
+.heading-wrap1 h1 {
+	font-size: 42px;
+	color: #000;
+	margin: auto;
+	text-align: center;
+	padding: 10px 0 15px;
+	line-height: 40px;
+}
+.fnt-wt500 {
+	font-weight: 500;
+}
+.fnt-wt300 {
+	font-weight: 300;
+}
+.heading-wrap p {
+	font-size: 16px;
+	color: #fff;
+	margin: auto;
+	text-align: center;
+	opacity: 0.87;
+	font-weight: 300;
+}
+.heading-wrap1 p {
+	font-size: 16px;
+	color: #000;
+	margin: auto;
+	text-align: center;
+	opacity: 0.54;
+	font-weight: 300;
+}
+.girnarlogin .gi-frgtpass {
+	font-size: 12px;
+	text-align: right;
+	color: #e66336;
+}
+.girnarlogin .gi-frgtpass a {
+	color: #e66336;
+}
+/* GIRNAR COMMON  CSS */
+.login_btn {
+	background: #e66437;
+	color: #fff;
+	border-radius: 3px;
+	border: none;
+	width: 100%;
+	display: block;
+	padding: 12px 0px;
+	font-size: 16px;
+	font-weight: normal;
+	text-decoration: none;
+	transition: all 0.4s;
+	box-shadow: 0 2px 4px 0 rgba(218, 103, 47, 0.3);
+}
+.login_btn:hover {
+	background:#be5734;
+	color: #fff;
+}
+.txt-lt {
+	text-align: left !important;
+}
+.mrg-bt0 {
+	margin-bottom: 0px !important;
+}
+.mrg-tp25 {
+	margin-top: 25px !important;
+}
+.mrg-tp15 {
+	margin-top: 15px !important;
+}
+.mrg-bt15 {
+	margin-bottom: 15px !important;
+}
+.mrg5 {
+	margin: 5px;
+}
+.brd-rt {
+	border-right: 1px solid #ddd;
+}
+.mrg-btm {
+	margin-bottom: 70px;
+}
+/* GIRNAR CARINSURANCE PAGE CSS */
+.form-control.slt {
+	background-color: #fff;
+	opacity: 0.9;
+	border: solid 1px #d9d9d9;
+	margin: 0;
+	padding: 10px;
+	position: relative;
+	width: 100%;
+	color: #000;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	height: 48px;
+	border-radius: 0px;
+}
+.form-control.slt option:first-child {
+	display: none;
+}
+.form-control.slt-txt {
+	border-radius: 0 !important;
+	padding: 14px;
+}
+.arrow {
+	background-image: url("../images/downwards-arrow-key.png");
+	background-repeat: no-repeat;
+	background-position: right 10px bottom 18px;
+}
+.dat {
+	background-image: url("../images/date.png");
+	background-repeat: no-repeat;
+	background-position: right 10px bottom 12px;
+}
+.form-control.slt:focus {
+	outline: transparent;
+	z-index: 2;
+}
+.car-insur {
+	background-color: #fff;
+	width: 100%;
+	padding: 30px 30px;
+	margin: 35px auto;
+	border-radius: 8px;
+}
+.car-insur .nav-tabs {
+	border-bottom: 0px solid #ddd;
+	margin-top: -15px;
+}
+.car-insur .nav-tabs>li.active>a, .car-insur .nav-tabs>li.active>a:focus, .car-insur .nav-tabs>li.active>a:hover {
+	color: #e66437;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+	font-size: 16px;
+	opacity: 1;
+	border: 1px solid transparent;
+	border-bottom: 2px solid #e66437;
+}
+.car-insur .nav-tabs>li>a {
+	color: #000;
+	opacity: .54;
+	font-size: 16px;
+}
+.car-insur .nav>li>a:hover {
+	text-decoration: none;
+	background: none;
+	border: 1px solid transparent;
+}
+.car-insur .form-group {
+	margin-bottom: 25px;
+}
+/* GIRNAR SCHEDULE PAGE CSS */
+.inspct-box {
+	background: #e6e6e6;
+	height: 62px;
+}
+.schd-insur {
+	margin: 35px auto;
+	border-radius: 8px;
+}
+.schd-insur .form-group {
+	margin-top: 25px;
+	margin-bottom: 0px;
+}
+.schd-insur .panel {
+	border-radius: 8px;
+	box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2);
+	border: 0px;
+}
+.schd-insur .panel-default>.panel-heading {
+	padding: 20px;
+	font-weight: bold;
+	background: #e6e6e6!important;
+}
+.schd-insur .badge {
+	width: 25px;
+	height: 25px;
+	background: #c3c3c3 !important;
+	opacity:54 !important;
+	color: #000 !important;
+	border-radius: 50%;
+	padding: 5px;
+}
+.schd-insur .panel-body {
+	padding: 5px 25px 30px;
+}
+.bdg-lab {
+	padding: 0px 15px;
+	opacity: .54;
+}
+.place::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+ color: #000 !important;
+ opacity: .87 !important;
+}
+.place::-moz-placeholder { /* Firefox 19+ */
+ opacity: .87 !important;
+}
+.place:-ms-input-placeholder { /* IE 10+ */
+ opacity: .87 !important;
+}
+.place:-moz-placeholder { /* Firefox 18- */
+ opacity: .87 !important;
+}
+/* GIRNAR INSPECTION PAGE CSS */
+
+.insp-insur {
+	background-color: #fff;
+	width: 100%;
+	padding: 15px 30px;
+	margin: 20px auto;
+	border-radius: 8px;
+	border: solid 1px #e0e0e0;
+}
+.ins-bx {
+	padding: 15px 0px;
+}
+.mr-bt100 {
+	margin-bottom: 100px;
+}
+#example2.table.dataTable {
+	background: #fff !important;
+	border-radius: 8px;
+}
+#example2.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+	padding: 15px;
+}
+#example2.table>tbody>tr>td {
+	color: #7c7c7c;
+	vertical-align: middle;
+}
+#example2.table.dataTable thead > tr > th {
+	background: #e6e6e6;
+	padding: 20px 15px;
+	border-bottom: 0px;
+}
+#example2 .dataTables_wrapper div.dataTables_info {
+	display: none;
+}
+#example2 .policy_btn {
+	background: #fff;
+	color: #7c7c7c;
+	border-radius: 3px;
+	border: 1px solid #a9a6a6;
+	width: 100%;
+	display: block;
+	font-size: 12px;
+	font-weight: normal;
+	text-decoration: none;
+}
+#example2 .policy_btn.active {
+	background: #e66437;
+	color: #fff;
+	border: 1px solid #e66437;
+	box-shadow: none;
+}
+.grn {
+	color: #37ac67 !important;
+}
+/*#example2 .policy_btn:hover, #example2 .policy_btn:focus{ background: #e66437; color: #fff; border: 1px solid #e66437;}*/
+.dataTables_paginate a {
+	color: #7c7c7c !important;
+	margin: 5px;
+	cursor: pointer;
+}
+#example2 #pymntReviewPgCancelBtn #raiseTicket {
+	display: inline;
+	color: #e66336!important;
+	text-decoration: none;
+	border: 1px solid #e66336;
+	margin-right: 5px;
+}
+#example2 #pymntReviewPgCancelBtn #raiseTicket:hover {
+	background: #e66437;
+	color: #ffffff!important;
+	border: 1px solid #e66437;
+}
+.selection-pill {
+	border-radius: 3px;
+	border: 1px solid rgba(49, 68, 81, 0.4);
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 3px 15px 0;
+	text-align: center;
+	cursor: pointer;
+	padding: 5px 20px;
+	-webkit-transition: background-color 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+	transition: background-color 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.selection-pill:hover {
+	background-color: #e66437;
+	color: #fff;
+}
+/* GIRNAR REVGIEW PAYMENT PAGE CSS */
+.payment-box {
+	background-color: #e6e6e6;
+	height: 1000px;
+	margin-bottom: 60px;
+}
+.title-nam {
+	padding: 20px;
+	border-bottom: 1px solid #bdbbbb;
+}
+.title-sub {
+	opacity: 0.5;
+	color: #000000;
+}
+.sub-txt {
+	opacity: 0.78;
+	font-size: 14px;
+	color: #000000;
+	display: block
+}
+.insuranve-logo {
+	padding-bottom: 10px;
+}
+.sub-txt-mon {
+	margin-top: 20px;
+	font-size: 24px;
+	color:#e66336
+}
+.payment-box .table>tbody>tr>td {
+	vertical-align: middle !important;
+	opacity: .54;
+}
+.payment-box .table>tbody>tr>th {
+	padding: 10PX 25PX;
+	opacity: .54;
+}
+.detail-heading {
+	opacity: 0.87;
+	font-size: 28px;
+	font-weight: 300;
+	color: #000000;
+}
+.detail-subbox {
+	background-color: #fff;
+	width: 100%;
+	padding: 15px 30px;
+	margin: 20px auto;
+	border: solid 1px #e0e0e0;
+}
+.Car-Owner-Details {
+	opacity: 0.87;
+	font-size: 16px;
+	color: #000000;
+	display: block;
+}
+.edit {
+	font-size: 14px;
+	font-weight: 500;
+	color: #e66336;
+	cursor: pointer;
+}
+.detail-box .table>tbody>tr>td {
+	vertical-align: middle !important;
+	color: #000;
+	opacity: .87;
+	border: none;
+	padding: 5px 25px;
+}
+.detail-box .table>tbody>tr>th {
+	padding: 10PX 25PX;
+	opacity: .54;
+	border: none;
+	padding: 5px 25px;
+}
+.detail-title {
+	padding: 0px 20px;
+}
+.agree-declare {
+	opacity: 0.5;
+	font-size: 14px;
+	line-height: 1.43;
+	color: #000000;
+}
+.custom-check input[type="checkbox"], .custom-check input[type="radio"] {
+	display:none;
+}
+.custom-check input[type="checkbox"] + label span, .custom-check input[type="radio"] + label span {
+	display:inline-block;
+	width:18px;
+	height:18px;
+	margin:-1px 4px 0 0;
+	vertical-align:middle;
+	background:url(../images/chksprite.png) -4px -2px no-repeat;
+	cursor:pointer;
+}
+.custom-check input[type="checkbox"]:checked + label span {
+	background-position: -45px -2px;
+}
+.ie8 .custom-check input[type="checkbox" ] {
+	display:inline-block;
+}
+.ie8 .custom-check input[type="checkbox"] + label span {
+	display:none;
+}
+
+@media screen and (max-width: 767px) {
+ #girnarfooter .footer-bottom .right-text {
+ text-align: center;
+ float: none;
+}
+ #girnarfooter .footer-bottom .left-text {
+ text-align: center;
+ float: none;
+}
+ .paybox.mr-btm100 {
+margin-bottom: 100px;
+}
+ .payment-box {
+ height: auto;
+}
+ #girnarfooter.foot {
+ position: relative;
+}
+ #girnarfooternew.foot {
+ position: relative;
+}
+ #girnarfooternew .footer-bottom .right-text {
+ float: none;
+ text-align: center;
+}
+#girnarfooternew .footer-bottom .left-text {
+ float: none;
+ text-align: center;
+}
+#girnarfooternew.foot {
+ position: relative;
+}
+#girnarfooternew2.foot {
+ position: relative;
+}
+ #girnarfooternew2 .footer-bottom .right-text {
+ float: none;
+ text-align: center;
+}
+#girnarfooternew2 .footer-bottom .left-text {
+ float: none;
+ text-align: center;
+}
+#girnarfooternew2.foot {
+ position: relative;
+}
+}
+.addon-head {
+	background: none!important;
+}
+#edit_mobile_field {
+	cursor: pointer;
+}
+.container.girnarlogin {
+	min-height: 480px;
+}
+.container.girnarFooter {
+	min-height: 480px;
+}
+.dataTables_info {
+	text-align: right;
+}
+.dataTables_paginate {
+	text-align: right;
+}
+#example2 #sms_payment_link_btn:hover {
+	background: #e66437;
+	color: #ffffff!important;
+	border: 1px solid #e66437;
+}
+#example2 #sms_payment_link_btn {
+	display: inline;
+	color: #e66336!important;
+	text-decoration: none;
+	border: 1px solid #e66336;
+}
+#example2 #pymntReviewPgCancelBtn #cancel_case_btn:hover {
+	background: #e66437;
+	color: #ffffff!important;
+	border: 1px solid #e66437;
+}
+#example2 #pymntReviewPgCancelBtn #cancel_case_btn {
+	display: inline;
+	color: #e66336!important;
+	text-decoration: none;
+	border: 1px solid #e66336;
+	margin-right: 5px;
+}
+.casesPgCancelBtn {
+}
+.casesPgCancelBtn:hover {
+	color: #808080!important;
+}
+ul.foot-policy li {
+	padding: 0 !important;
+}
+/* login error */
+.login-error {
+	position: relative;
+	font-size: 12px;
+	color: red;
+	margin-top: -20px;
+	margin-left: 16px;
+	margin-bottom: 15px;
+}
+#example2 .policy_btn:hover, #example2 .policy_btn:focus {
+	color:#7c7c7c !important;
+}
+.girnarlogin .form-group {
+	margin-bottom: 15px
+}

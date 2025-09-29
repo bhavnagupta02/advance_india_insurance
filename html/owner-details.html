@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html class="no-js htmlCustom" lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<title>Insurance</title>
+<!-- demo-specific styles -->
+<!--CSS Files-->
+<link rel="stylesheet" href="css/common_compress_style.css">
+<link rel="stylesheet" href="css/style_new.css">
+</head>
+<body>
+<div class="bg">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid" id="pos_main_tp_nv">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="slide-collapse" aria-expanded="false" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt="" class="log-pos"></a>
+        <div class="closeNav"></div>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class=" mobileYes"><a href="#"><img src="images/user.png" alt="" class="usreIcon">SATENDER</a></li>
+          <li class=""><a href="index.html">Home</a></li>
+          <li class="mobileYes"><a href="my-profile.html">My Profile</a></li>
+          <li class="mobileYes"><a href="#">Logout</a></li>
+          <li class="dropdown lastli_border  mobileNo"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img src="images/user.png" alt="" class="usreIcon">SATENDER <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="my-profile.html">My Profile</a></li>
+              <li><a href="#">Logout</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--Header Ends--> 
+  
+  <!--Start top case info-->
+  <section class="contentSection bike_mainFilter all_details moreLess newOnlineContent onlineQTContentSection" id="tw_case_info_display">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2 col-xs-6 car-width" id="tw_dis_mmv">
+          <h3 class="subheading">Bike</h3>
+          <ul>
+            <li id="tw_mmv">Honda  2019 Honda Activa 125 Standard</li>
+          </ul>
+        </div>
+        <div class="col-md-2 col-xs-6" id="tw_dis_rto">
+          <h3 class="subheading">City</h3>
+          <ul>
+            <li id="tw_rto">PB16 Anandpur Sahib</li>
+          </ul>
+        </div>
+        <div class="col-md-1 posAbs3 pull-right">
+          <button type="button" class="btn btn-default editBtn pull-right" id="editCaseDetail">Edit</button>
+        </div>
+        <div class="col-md-1 posAbs2 pull-right"> <span style="cursor: pointer;" class="offq_moreTXT">More...</span> </div>
+        <div class="moreDiv">
+          <div class="col-md-1 col-xs-6" id="tw_dis_mfgdate">
+            <h3 class="subheading">Mfg Year</h3>
+            <ul>
+              <li id="tw_mfg">Mar, 2019</li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-xs-6" id="tw_dis_regdate">
+            <h3 class="subheading">Registration Date</h3>
+            <ul>
+              <li id="tw_regNo">24 Mar, 2019</li>
+            </ul>
+          </div>
+          <div class="col-md-1 col-xs-6 rdate-width" id="dis_policyExp_field">
+            <h3 class="subheading">Policy Expiry</h3>
+            <ul>
+              <li id="tw_policyExp">26 Mar, 2020</li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-xs-6 rdate-width" id="dis_ncb_field">
+            <h3 class="subheading">Prev. NCB</h3>
+            <ul>
+              <li id="tw_ncb">20</li>
+              %
+            </ul>
+          </div>
+          <div class="col-md-2 col-xs-6 rdate-width" id="dis_claimtaken_field" style="display:none;">
+            <h3 class="subheading">Claim Taken</h3>
+            <ul>
+              <li></li>
+            </ul>
+          </div>
+          <div class="col-md-1 posAbs2 pull-right"> <span style="cursor: pointer;" class="offq_lessTXT">Less...</span> </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </section>
+  <!--./ End top case info--> 
+  
+  <!--Start side breadcrumb-->
+  <div class="breadcum-Strip">
+    <div class="col-sm-2 sidenav leftSideNav" id="sideBreadCrubmFields">
+      <ul id="sideBreadcrumbList">
+        <li class="side_nav sidenav_icon-completed"><a href="quotes.html" ><span class="img-type"></span> Quotes</a></li>
+        <li class="side_nav sidenav_icon-active"><a href="owner-details.html" class="currentPage"><span class="img-type"></span> Owner Details</a></li>
+        <li class="side_nav sidenav_icon-inactive"><a href="personal-details.html" ><span class="img-type"></span>Personal Details</a></li>
+        <li class="side_nav sidenav_icon-inactive"><a href="vehicle-details.html" ><span class="img-type"></span> Vehicle Details</a></li>
+        <li class="side_nav sidenav_icon-inactive"><a href="documents.html" ><span class="img-type"></span> Documents</a></li>
+        <li class="side_nav sidenav_icon-inactive"><a href="summary.html" ><span class="img-type"></span> Payment</a></li>
+    </ul>
+    </div>
+  </div>
+  <div class="col-sm-10 col-sm-push-2">
+    <div id="band" class="container-fluid container_space no_space">
+      <div id="wizard" role="application" class="wizard clearfix">
+        <div class="content clearfix">
+          <section class="tabSec body current">
+            <div class="row">
+              <div class="col-md-12">
+                <h2 class="mrg-L20 ownerHeadMob">Owner Details</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <section class="contentSection mainFilter sec_bankList">
+                  <div class="card offlineCard">
+                    <form>
+                      <div class="row mrg-T20 disableCheck">
+                        <div class="col-md-12 config-chk"> <span class="">
+                          <input type="checkbox" name="is_company_car" id="is_company_car" value="1" class="trigger">
+                          <label for="is_company_car" class="car-company-name"><span class="dt-yes"></span> This bike is in the name of a company</label>
+                          </span> </div>
+                      </div>
+                      <div class="row mrg-T20 companyFields">
+                        <div class="col-md-6 form-group companyFields">
+                          <label for="" class="liteLabel">Company Name <span class="text-danger">*</span></label>
+                          <input class="form-control filterInput" type="text" placeholder="Company Name" name="company_name" value="" maxlength="100" required="" >
+                        </div>
+                        <div class="col-md-6 form-group companyFields">
+                          <label for="" class="liteLabel">GSTIN</label>
+                          <input class="form-control filterInput" type="text" placeholder="GSTIN" name="company_gstin" id="company_gstin" value="" maxlength="100">
+                        </div>
+                      </div>
+                      <div class="row mrg-T20 nonCompanyFields">
+                        <div class="col-md-6 form-group nonCompanyFields">
+                          <label for="" class="liteLabel">First Name <span class="text-danger">*</span></label>
+                          <input class="form-control filterInput" placeholder="First Name" name="first_name" value="" maxlength="50" minlength="1" required="">
+                        </div>
+                        <div class="col-md-6 form-group nonCompanyFields">
+                          <label for="" class="liteLabel">Last Name</label>
+                          <input class="form-control filterInput" placeholder="Last Name" name="last_name" value="" maxlength="50">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6 form-group">
+                          <label for="" class="liteLabel">Email <span class="text-danger">*</span></label>
+                          <input class="form-control filterInput" type="email" placeholder="Email ID" name="email_id" value="" required="" >
+                        </div>
+                        <div class="col-md-6 form-group">
+                          <label for="" class="liteLabel">Phone <span class="text-danger">*</span></label>
+                          <input type="tel" class="form-control filterInput onlyNumbers" maxlength="10" placeholder="Phone Number" name="phone_no" id="phone_no" value="" required="" >
+                        </div>
+                      </div>
+                      <div class="row ">
+                        <div class="col-md-6 form-group" id="pan_card_div">
+                          <label for="" class="liteLabel">Pan Card <span class="text-danger"></span></label>
+                          <input class="form-control filterInput" type="text" placeholder="Pan Card" maxlength="10" id="pan_card" name="pan_card" value="">
+                        </div>
+                        <div class="col-md-6 form-group" id="aadhar_card_div">
+                          <label for="" class="liteLabel">Aadhar Number <span class="text-danger"></span></label>
+                          <input class="form-control filterInput onlyNumbers" type="tel" placeholder="Aadhar Card" maxlength="12" id="aadhar_number" name="aadhar_number" value="">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <h5><strong>Address as on RC</strong></h5>
+                        </div>
+                      </div>
+                      <div class="row" id="fullAddressErrorMsg"></div>
+                      <div class="row mrg-T20">
+                        <div class="col-md-12 form-group">
+                          <label for="" class="liteLabel">Address Line 1 <span class="text-danger">*</span></label>
+                          <textarea class="form-control filterInput" rows="1" placeholder="Address Line 1" name="primary_address_1" id="primary_address_1" maxlength="" required=""></textarea>
+                        </div>
+                      </div>
+                      <div class="row ">
+                        <div class="col-md-12 form-group">
+                          <label for="" class="liteLabel">Address Line 2</label>
+                          <textarea class="form-control filterInput" rows="1" placeholder="Address Line 2" name="primary_address_2" id="primary_address_2" maxlength=""></textarea>
+                        </div>
+                      </div>
+                      <div class="row ">
+                        <div class="col-md-12 form-group">
+                          <label for="" class="liteLabel">Address Line 3</label>
+                          <textarea class="form-control filterInput" rows="1" placeholder="Address Line 3" name="primary_address_3" id="primary_address_3" maxlength=""></textarea>
+                        </div>
+                      </div>
+                      <div class="row ">
+                        <div class="col-md-6 form-group">
+                          <label for="" class="liteLabel">Pincode <span class="text-danger">*</span></label>
+                          <input class="form-control filterInput" type="tel" placeholder="Pin Code" name="pin_code" id="pin_code" minlength="6" maxlength="6" value="">
+                        </div>
+                        <div class="col-md-6 mobSumo">
+                          <div class="form-group">
+                            <label for="" class="liteLabel">State <span class="text-danger">*</span></label>
+                            <select name="corr_state" id="corr_state" title="Please select state" class="search-box " onchange="getCity(this.id,'corr_city');" required="" aria-required="true" tabindex="-1">
+                                  <option value=""> --select state-- </option>
+                                  <option value="Andaman and Nicobar">Andaman &amp; Nicobar</option>
+                                  <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                  <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                  <option value="Assam">Assam</option>
+                                  <option value="Bihar">Bihar</option>
+                                  <option value="Chandigarh">Chandigarh</option>
+                                  <option value="Chhattisgarh">Chhattisgarh</option>
+                                  <option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+                                  <option value="Daman and Diu">Daman and Diu</option>
+                                  <option value="Delhi">Delhi</option>
+                                  <option value="Goa">Goa</option>
+                                  <option value="Haryana">Gujarat</option>
+                                  <option value="Haryana">Haryana</option>
+                                  <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                  <option value="Jammu and Kashmir">Jammu &amp; </option>
+                                  <option value="Jharkhand">Jharkhand</option>
+                                  <option value="Karnataka">Karnataka</option>
+                                  <option value="Kerala">Kerala</option>
+                                  <option value="Lakshadweep">Lakshadweep</option>
+                                  <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                  <option value="Maharashtra">Maharashtra</option>
+                                  <option value="Manipur">Manipur</option>
+                                  <option value="Meghalaya">Meghalaya</option>
+                                  <option value="Mizoram">Mizoram</option>
+                                  <option value="Nagaland">Nagaland</option>
+                                  <option value="Orissa">Orissa</option>
+                                  <option value="Pondicherry">Pondicherry</option>
+                                  <option value="Punjab">Punjab</option>
+                                  <option value="Rajasthan">Rajasthan</option>
+                                  <option value="Sikkim">Sikkim</option>
+                                  <option value="Tamil Nadu">Tamil Nadu</option>
+                                  <option value="Telangana">Telangana</option>
+                                  <option value="Tripura">Tripura</option>
+                                  <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                  <option value="Uttrakhand">Uttaranchal/Uttrakhand</option>
+                                  <option value="West Bengal">West Bengal</option>
+                                </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6 mobSumo">
+                          <div class="form-group">
+                            <label for="" class="liteLabel">City <span class="text-danger">*</span></label>
+                              <select name="city" id="city" title="Please select city" class="search-box" required="" aria-required="true" tabindex="-1">
+                                <option value=""> --select city-- </option>
+                              </select>
+                              
+                           
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row ">
+                        <div class="col-md-12 config-chk"> <span class="">
+                          <input type="checkbox" name="is_corr_address_same" id="is_corr_address_same" class="trigger" checked="" value="1" data-rel="">
+                          <label for="is_corr_address_same"><span class="dt-yes"></span> Is correspondence address same as registration address?</label>
+                          </span> </div>
+                      </div>
+                      <div id="registration_fields" style="">
+                        <div class="row">
+                          <div class="col-md-12">
+                            <h5><strong>Correspondence Address</strong></h5>
+                          </div>
+                        </div>
+                        <div class="row mrg-T20" id="fullCorrsAddressErrorMsg"></div>
+                        <div class="row mrg-T20">
+                          <div class="col-md-12 form-group">
+                            <label for="" class="liteLabel">Correspondence Address Line 1 <span class="text-danger">*</span></label>
+                            <textarea class="form-control filterInput" rows="1" placeholder="Address Line 1" name="corrs_address_1" id="corrs_address_1" required="" maxlength="" ></textarea>
+                          </div>
+                        </div>
+                        <div class="row ">
+                          <div class="col-md-12 form-group">
+                            <label for="" class="liteLabel">Correspondence Address Line 2</label>
+                            <textarea class="form-control filterInput" rows="1" placeholder="Address Line 2" name="corrs_address_2" id="corrs_address_2" maxlength=""></textarea>
+                          </div>
+                        </div>
+                        <div class="row ">
+                          <div class="col-md-12 form-group">
+                            <label for="" class="liteLabel">Correspondence Address Line 3</label>
+                            <textarea class="form-control filterInput" rows="1" placeholder="Address Line 3" name="corrs_address_3" id="corrs_address_3" maxlength=""></textarea>
+                          </div>
+                        </div>
+                        <div class="row ">
+                          <div class="col-md-6 form-group">
+                            <label for="" class="liteLabel">Pincode <span class="text-danger">*</span></label>
+                            <input class="form-control filterInput onlyNumbers" type="tel" placeholder="Pin Code" name="corr_pin_code" id="corr_pin_code" minlength="6" maxlength="6" value="" required="" aria-required="true">
+                          </div>
+                          <div class="col-md-6 mobSumo">
+                            <div class="form-group">
+                              <label for="" class="liteLabel">State <span class="text-danger">*</span></label>
+                                <select name="corr_state" id="corr_state" title="Please select state" class="search-box " onchange="getCity(this.id,'corr_city');" required="" aria-required="true" tabindex="-1">
+                                  <option value=""> --select state-- </option>
+                                  <option value="Andaman and Nicobar">Andaman &amp; Nicobar</option>
+                                  <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                  <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                  <option value="Assam">Assam</option>
+                                  <option value="Bihar">Bihar</option>
+                                  <option value="Chandigarh">Chandigarh</option>
+                                  <option value="Chhattisgarh">Chhattisgarh</option>
+                                  <option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+                                  <option value="Daman and Diu">Daman and Diu</option>
+                                  <option value="Delhi">Delhi</option>
+                                  <option value="Goa">Goa</option>
+                                  <option value="Haryana">Gujarat</option>
+                                  <option value="Haryana">Haryana</option>
+                                  <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                  <option value="Jammu and Kashmir">Jammu &amp; </option>
+                                  <option value="Jharkhand">Jharkhand</option>
+                                  <option value="Karnataka">Karnataka</option>
+                                  <option value="Kerala">Kerala</option>
+                                  <option value="Lakshadweep">Lakshadweep</option>
+                                  <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                  <option value="Maharashtra">Maharashtra</option>
+                                  <option value="Manipur">Manipur</option>
+                                  <option value="Meghalaya">Meghalaya</option>
+                                  <option value="Mizoram">Mizoram</option>
+                                  <option value="Nagaland">Nagaland</option>
+                                  <option value="Orissa">Orissa</option>
+                                  <option value="Pondicherry">Pondicherry</option>
+                                  <option value="Punjab">Punjab</option>
+                                  <option value="Rajasthan">Rajasthan</option>
+                                  <option value="Sikkim">Sikkim</option>
+                                  <option value="Tamil Nadu">Tamil Nadu</option>
+                                  <option value="Telangana">Telangana</option>
+                                  <option value="Tripura">Tripura</option>
+                                  <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                  <option value="Uttrakhand">Uttaranchal/Uttrakhand</option>
+                                  <option value="West Bengal">West Bengal</option>
+                                </select>
+                                
+                                
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-6 mobSumo">
+                            <div class="form-group">
+                              <label for="" class="liteLabel">City <span class="text-danger">*</span></label>
+                                <select name="corr_city" id="corr_city" title="Please select city" class="search-box" required="" aria-required="true" tabindex="-1">
+                                  <option value=""> --select city-- </option>
+                                </select>
+                                
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <input type="submit" role="menuitem" class="filterBtn mrg-T25 getQuotes" id="contactdetail" value="Continue">
+                        </div>
+                      </div>
+                      <div class="clearfix"></div>
+                    </form>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      
+      <!--new ui close--> 
+    </div>
+  </div>
+</div>
+<div class="clearfix"></div>
+<!-- Footer -->
+<footer class="text-left footerCustom" style="display: block; height: 81px;">
+  <div class="row">
+    <div class="col-md-5 ftr-left-sec">
+      <p class="copyright"><span class="ftr-cotyright-txt"> © Girnar Insurance Brokers Private Limited. All Rights Reserved<br>
+        </span> Direct Broker (General) IRDAI License Number 588 , Valid Till: 19/03/2023 </p>
+    </div>
+    <div class="col-md-7 pull-right ftr-right-sec">
+      <ul class="foot-policy clearfix">
+        <li><a href="contact-us.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<!--JS files-->
+<script src="js/common_compress_script.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>

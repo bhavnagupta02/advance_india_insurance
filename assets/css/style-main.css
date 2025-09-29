@@ -1,0 +1,1650 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+body {
+    padding-bottom: 8rem;
+    min-height: 100%;
+    position: relative;
+}
+/*-----------14-04-2020-start------------*/
+.breakuplist .premiumTxt button.btn.btn-primary {
+    padding: 0px !important;
+    border: none !important;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    font-weight: 500;
+    background: no-repeat !important;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, .5);
+}
+.premium_data .modal-content {
+    float: left;
+    width: 100%;
+    border: none;
+}
+.premium_data .modal-header {
+    float: left;
+    padding:15px 20px;
+    width: 100%;
+    background: #f5f5f5;
+}
+.premium_data .modal-header h5 {
+    width: 100%;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+}
+.premium_data .modal-header button.close {
+    position: absolute;
+    margin: 0px;
+    right: 20px;
+    top: 15px;
+    font-size: 24px;
+    line-height: 40px;
+}
+.premium_data .modal-header button.close span {
+    font-size:35px;
+    color: #9999;
+}
+.premium_data .modal-body {
+    float: left;
+    width: 100%;
+    padding: 20px;
+}
+.premium_data .modal-body li {
+    border: none !important;
+    padding: 15px 0px !important;
+    border-bottom: 1px solid #e7e7e7 !important;
+    margin: 0px;
+    font-size: 17px;
+    line-height: 30px;
+}
+.premium_data .modal-body li span {
+    float: right;
+}
+.premium_data .modal-body li:hover {
+    border:none !important;
+     border-bottom: 1px solid #e7e7e7 !important;
+}
+.premium_data .modal-body .col-md-12 {
+    padding: 0px;
+    display:inline-table;
+    text-align:center;
+}
+.premium_data .modal-body .col-md-12 input {
+    width: auto !important;
+    float: none !important;
+    padding: 10px 50px;
+}
+footer {
+    position: absolute !important; 
+    bottom: 0px !important;
+    z-index: 99999;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: auto !important;
+    width: 100%;
+    float: left;
+    margin: 0px;
+     /*position: relative;*/
+}
+.sec_comingsoon h1 {
+    text-align: center;
+    font-size: 50px;
+    line-height: 70px;
+    margin: 60px 0px;
+}
+.Transactions {
+    padding: 140px 0px 80px;
+    width: 100%;
+    float: left;
+}
+.Transactions .container {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+.Transactions .heading-wrap h1 {
+    text-align: left !important;
+    background: #f5f5f5;
+    margin: 0px !important;
+    padding: 20px 15px 10px;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif !important;
+    color: #2491eb !important;
+}
+
+.Transactions .table-section .dataTables_wrapper {
+    background: #f5f5f5;
+    padding:0px 15px 15px;
+    float: left;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.07);
+}
+.Transactions .table-section  table {
+    border: 1px solid #d3d3d3;
+    margin: 30px 0px !important;
+    float: left;
+    width: 100%;
+}
+.Transactions .table-section .dataTables_length {
+    padding: 15px 0px 0px !important;
+    float: left;
+    width: 100%;
+}
+.Transactions .table-section .dataTables_filter{
+    padding: 15px 0px 0px !important;
+    float: right;
+    width: auto;
+}
+.Transactions .table-section label {
+    line-height: 40px;
+    margin: 0px;
+    float: left;
+}
+.Transactions .table-sectionlabel {
+    width: 100%;
+    margin: 0px;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.Transactions .table-section  select.form-control {
+    padding: 0px 10px;
+    background: #fff;
+    border: none !important;
+       width: 80px;
+    height: 40px;
+    margin:0px 10px;
+}
+.Transactions .table-section  input.form-control {
+    padding: 0px 10px;
+    background: #fff;
+    border: none !important;
+    width: 250px;
+    height: 40px;
+    margin:0px 10px;
+}
+.Transactions .table-section .dataTables_info {
+    text-align: left;
+}
+.Transactions .table-section ul.pagination li.active a {
+    color: #fff !important;
+}
+/*-----------14-04-2020-End------------*/
+/*-----------15-04-2020-Start------------*/
+.policy_holderdtls span {
+    display: block;
+}
+
+.Transactions .table-section table tr td:nth-child(3) {
+    text-align: center;
+}
+.Transactions .table-section table tr td:nth-child(1) {
+    text-align: center;
+}
+
+/*select {
+  -webkit-appearance: checkbox !important;
+  -moz-appearance: checkbox !important;
+}*/
+.Transactions .table-section table tr td a {
+    color: #fff;
+    background: #2491eb;
+    float: left;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 5px 5px;
+}
+.Transactions .table-section table tr td a:hover {
+    color: #fff;
+    background: #337ab7;
+}
+.Transactions .table-section table tr th::before, .Transactions .table-section table tr th::after {
+    color: #000;
+    opacity: 1;
+}
+/*-----------15-04-2020-End------------*/
+/*-----------22-04-2020-Start------------*/
+.bgwall nav.navbar.navbar-default {
+    background: #fff !important;
+}
+.bgwall nav.navbar.navbar-default ul.nav li a {
+    color: #000 !important;
+}
+.bgwall .girnarlogin .heading-wrap {
+    max-width: 100%;
+    margin: 30px 0px 0px;
+}
+.bgwall .girnarlogin .heading-wrap h1 {
+    color: #000;
+    font-size: 30px;
+    line-height: 40px;
+    padding: 0px;
+    text-align: left !important;
+}
+.bgwall .girnarlogin .login {
+    width: auto;
+    max-width:100%;
+   
+}
+.bgwall .girnarlogin .login form {
+    padding:10px 30px ;
+    float: left;
+    width: 100%;
+}
+.girnarlogin .login form .form-group {
+    padding-bottom: 25px;
+    margin: 0px;
+    position: relative;
+}
+.girnarlogin .login form .form-group input {
+    width: 100%;
+    height: 54px;
+    padding: 0px 20px;
+    font-size: 17px;
+    background-color: #fff !important;
+    opacity: 1 !important;
+    background-image: none !important;
+}
+.girnarlogin .login form .form-group button.btn.login_btn {
+    height: 55px;
+    margin: 0px;
+    background: #2491eb;
+    border: none !important;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 100px !important;
+    box-shadow: 0px 0px 0px #000 !important;
+}
+.girnarlogin .login form .form-group button.btn.login_btn:hover {
+    background: #020d43;
+    border: none !important;
+}
+nav.navbar.navbar-default {
+    padding: 0px 20px;
+}
+.become-section h3.mainHeading {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+    line-height: 35px;
+}
+.become-section .contentSection {
+    background: #f8f8f8;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    padding:35px;
+    border-radius:10px !important;
+}
+.become-section .contentSection h3.SubHeading {
+    font-size: 23px;
+    line-height: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+.become-section .contentSection label {
+    width: 100%;
+    line-height: 30px;
+    font-size: 15px;
+    margin: 0px;
+    padding: 5px 0px;
+}
+.become-section .contentSection input, .become-section .contentSection select {
+    border: 1px solid #d3d3d3 !important;
+    height: 44px !important;
+    padding: 0px 15px;
+    font-family: 'Roboto', sans-serif;
+    -webkit-appearance: none !important;
+    border-radius: 0px !important;
+}
+.become-section .contentSection input:focus {
+    background: #f5f5f5 !important;
+}
+.become-section .contentSection .input-group span.input-group-addon {
+    border: 1px solid #d3d3d3 !important;
+    border-left: 0px !important;
+}
+.become-section button.btn.btn-default {
+    background: #2491eb;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    height: 50px !important;
+}
+
+.become-section button.btn.btn-default:hover {
+    background: #061044;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    border-bottom: 3px solid #2491eb !important;
+}
+.girnarlogin.login_cstm {
+    padding: 145px 0px 0px;
+    background: #2993eb;
+}
+.bgwall .copyright {
+    color: #fff;
+    opacity: 1;
+}
+.bgwall ul.foot-policy li {
+    opacity: 1;
+}
+.girnarlogin.login_cstm .row {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.2);
+    padding:30px 0px;
+    margin:0px 0px 30px;
+}
+.girnarlogin.login_cstm .left-login {
+    padding: 20px 15px;
+}
+.bgwall .girnarlogin .login {
+    width: auto;
+    max-width: 100%;
+    padding: 0px !important;
+    background: none;
+    border-radius: 0px !important;
+    box-shadow: 0px 0px 0px #000 !important;
+    margin: 20px 0px !important;
+}
+.girnarlogin.login_cstm .right-login {
+    padding: 0px 30px;
+}
+.bgwall .girnarlogin .login form {
+    padding:0px;
+}
+.bgwall .girnarlogin .login .col-md-12 {
+    padding: 0px;
+}
+.form-group input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #f5f5f5 inset !important;
+    background-color: none !important;
+    border: 1px solid #2491eb !important;
+}
+.form-control:focus, .form-control:focus ~ .input-group-addon {
+    border:1px solid #2491eb !important;
+}
+.girnarlogin .login form .form-group input {
+    background: none !important;
+    border: none !important;
+    border-bottom: 1px solid #d3d3d3 !important;
+    padding:0px 10px 0px 35px;
+}
+.girnarlogin .login form .form-group i {
+    position: absolute;
+    top: 5px;
+    line-height: 44px;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-size: 19px;
+        z-index: 999;
+    left: 10px;
+}
+.bgwall .girnarlogin .login form .form-group.mrg-bt0 {
+    padding: 0px !important;
+}
+.navbar .collapse ul li a {
+    border: none !important;
+    padding: 5px 20px;
+    line-height: 34px;
+    margin: 0px !important;
+    height: auto !important;
+}
+nav.navbar.navbar-default .navbar-brand {
+    float: left;
+    height: 100%;
+    padding: 10px 20px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.navbar .collapse ul li{
+    border:none !important;
+}
+.navbar .collapse ul li.active a, .navbar .collapse ul li a:hover, .navbar .collapse ul li a:focus{
+    border: none;
+    background: #2491eb !important;
+    color: #fff !important;
+}
+.navbar .collapse ul li a:hover i{
+    color: #fff !important;
+}
+nav.navbar.navbar-default ul.nav.navbar-nav {
+    margin: 16px 0px !important;
+}
+.navbar .collapse ul li a i {
+    text-align: center;
+    line-height: 24px;
+    color: #777;
+    border-radius: 100%;
+    margin-right: 6px;
+    font-size: 15px;
+}
+.navbar .collapse ul li ul.dropdown-menu {
+    margin: 0px;
+    padding: 0px;
+}
+.bgwall nav.navbar.navbar-default ul.nav li a:hover{
+    color:#fff !important;
+}
+.sec_tab.carInfo.new-section {
+    margin-top: 80px;
+    padding: 0px;
+    min-height: 70px;
+}
+.sec_tab.carInfo.new-section .subHeading {
+    padding: 10px 0px !important;
+    float: left;
+    width: 100%;
+}
+.sec_tab.carInfo.new-section .subHeading a {
+    height: auto;
+    color: #777 !important;
+    letter-spacing: 0px !important;
+    font-size: 17px;
+    font-weight: 500 !important;
+    padding: 10px 30px 10px 0px ;
+    line-height:30px;
+    float:left;
+}
+.sec_tab.carInfo.new-section .subHeading a.active, .sec_tab.carInfo.new-section .subHeading a:hover {
+    height: auto;
+    color: #2491eb !important;
+    border:none;
+}
+.section-insurance {
+    background-image: url(../images/insurance-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    margin: 0px;
+    padding:60px 0px;
+}
+
+.section-insurance h3.mainHeading.mainHeading_2 {
+    width: 100%;
+    background: #fff;
+    margin: 0px !important;
+    padding: 20px 30px 10px;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif !important;
+    color: #2491eb !important;
+}
+.contentSection {
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 10px 10px;
+    background-color:#fff  !important;
+    padding: 0px 30px 30px !important;
+}
+.section-insurance .tab-content label {
+    line-height: 30px;
+    font-size: 15px;
+    width: 100%;
+}
+.section-insurance .tab-content select {
+    width: 100% !important;
+    border: 1px solid #d3d3d3;
+    height: 44px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.section-insurance .tab-content .form-group input {
+    height: 44px !important;
+    border-radius: 0px !important;
+}
+.section-insurance .tab-content .form-group span.input-group-addon {
+    border-radius: 0px !important;
+}
+.section-insurance .tab-content .col-md-12 {
+    text-align: center;
+    display: inline-table;
+    padding: 10px 0px;
+}
+.section-insurance .tab-content button.getQuotes {
+    margin: 0px !important;
+    width: 25%;
+    background: #2491eb !important;
+    padding: 18px 0px !important;
+    height: auto !important;
+    font-size: 17px;
+    font-weight: 700;
+}
+.section-insurance .tab-content button.getQuotes:hover{
+    background:#061044 !important;
+}
+.girnarlogin.login_cstm .container {
+    padding: 0px 120px;
+}
+.container_space.user-profile {
+    padding: 140px 0px 80px !important;
+    float: left;
+    width: 100%;
+}
+.user-profile span.sub-heading {
+    display: inline-flex;
+}
+.user-profile span.sub-heading img {
+    line-height: 30px;
+}
+.user-profile section.contentSection {
+    background: #f5f5f5 !important;
+    padding: 20px !important;
+    margin: 0px;
+    border-radius: 0px !important;
+    border-bottom: 1px solid #d3d3d3;
+}
+.user-profile h3.mainHeading {
+    padding: 20px 20px 0px;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif !important;
+    color: #2491eb !important;
+    background: #f5f5f5;
+    margin: 0px;
+}
+.user-profile section.contentSection h3.SubHeading {
+    margin: 0px !important;
+    line-height: 40px;
+    font-size: 24px;
+}
+.user-profile section.contentSection span.lab-txt {
+    font-size: 17px;
+    color: #000;
+    font-weight: 500;
+}
+.user-profile section.contentSection span.inp-txt {
+    font-size: 15px;
+    color: #666 !important;
+    font-weight: 400;
+}
+.user-profile section.contentSection li{
+    padding-bottom:0px;
+}
+.user-profile section.contentSection li:first-child {
+    margin-left: 0px;
+}
+.user-profile section.contentSection .img-txt {
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    margin-top: 15px;
+    position: relative;
+    padding: 0px;
+    margin: 10px 0px;
+    font-weight: 700;
+    color: #000;
+}
+.user-profile section.contentSection.user-third {
+    border: none;
+    border-radius: 0px 0px 10px 10px !important;
+}
+.contentSection.bike_mainFilter.all_details .year {
+    width: 13%;
+}
+.contentSection.bike_mainFilter.all_details .Registration {
+    width:20%;
+}
+.contentSection.bike_mainFilter.all_details .Capacity {
+    width: 22%;
+}
+.contentSection.bike_mainFilter.all_details .fule {
+    width: 15%;
+}
+.contentSection.bike_mainFilter.all_details .Variant {
+    width:30%;
+}
+.contentSection.bike_mainFilter.all_details h3.subheading {
+    font-size: 13px;
+    color: #fff;
+}
+.contentSection.bike_mainFilter.all_details ul li {
+    font-size: 12px;
+    color: #fff;
+}
+.contentSection.bike_mainFilter.all_details {
+    margin: 80px 0px 0px;
+    padding: 15px 30px !important;
+    float: left;
+    width: 100%;
+    border-radius: 0px !important;
+    background: #2491eb !important;
+}
+.sidebar-section .sidenav {
+    background: #020d43;
+    padding-top: 160px;
+    padding-bottom:100px;
+}
+.sidebar-section .side_nav:after {
+    content: "";
+    border-left: 1px dashed rgba(255, 255, 255, 0.50);
+    left: 20px;
+}
+.sidebar-section .sidenav_icon-inactive .img-type:before {
+    content: '';
+    background: url(../images/black-oval.png) !important;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    top: 20px;
+    left: 13px;
+}
+.sidebar-section .sidenav_icon-active a .img-type:before {
+    content: '';
+    background: url(../images/red-oval.png) !important;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    top: 20px;
+    left: 13px;
+}
+.sidebar-section .sidenav_icon-completed a .img-type:before {
+    content: '';
+    background: url(../images/tick.png)!important;
+    height: 16px !important;
+    width: 16px !important;
+    position: absolute;
+    top: 20px;
+    left: 13px;
+}
+.sidebar-section .sidenav ul li:last-child::after{
+    display:none;
+}
+.sidebar-section .sidenav ul li a {
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    padding: 4px 10px 5px 24px;
+    cursor: pointer;
+}
+.sidebar-section .sidenav ul li a:hover {
+    color: #2491eb;
+}
+.quote-section {
+    padding: 150px 0px 110px;
+    background: #fff;
+}
+.sidebar-section {
+    position: relative;
+    z-index: 99 !important;
+}
+.quote-section section.tabSec {
+    float: left;
+    width: 100%;
+    padding:80px 0px 0px;
+}
+.quote-section .tabSec .tabbable-line > .nav-tabs {
+    border: none;
+    margin: 0px;
+    display: inline-table;
+    width: 100%;
+    float: left;
+    top: 0px !important;
+    padding: 0px 30px 50px;
+}
+.quote-section .tabSec .tabbable-line > .tab-content {
+    border-top: none !important;
+    padding: 0px 30px;
+    display: inline;
+    width: 100%;
+    float: left;
+}
+.quote-section .tabSec .tabbable-line > .nav-tabs li a.carInfoTab {
+    margin: 0px;
+}
+.quote-section .tabSec .tabbable-line > .nav-tabs li.active a.carInfoTab, .quote-section .tabSec .tabbable-line > .nav-tabs li a.carInfoTab:hover {
+    color: #2491eb !important;
+    border:none !important;
+}
+.tabSec .tabbable-line > .nav-tabs > li.active {
+    border-bottom: 4px solid #2491eb !important;
+}
+.quote-section .tabSec .contentSection.sec_bankList {
+    padding: 0px !important;
+}
+.bankListing ul li:hover {
+    border: 1px solid #2491eb  !important;
+}
+.quote-section .tabSec .contentSection.sec_bankList .breakuplist .priceBox {
+    border: 1px solid #2491eb;
+    color: #2491eb;
+}
+.quote-section .tabSec .contentSection.sec_bankList .breakuplist .priceBox:hover{
+    background:#2491eb !important;
+    color:#fff !important;
+}
+.quote-section .tabSec .contentSection.sec_bankList  ul li:hover .priceBox {
+    background: #2491eb;
+    color: #fff !important;
+}
+
+.quote-section .tabSec .contentSection .filterBtn {
+    background-color: #2491eb;
+}
+.quote-section .tabSec .contentSection .filterBtn:hover {
+    background-color: #020d43;
+}
+.quote-section .alert-success {
+    float: none !important;
+    border-radius: 0px !important;
+}
+.quote-section .tabSecnew{
+    padding: 50px 30px !important;
+}
+.quote-section .tabSecnew h2 {
+    margin: 0px;
+    padding-bottom: 15px;
+    font-size: 30px;
+    color: #2491eb;
+}
+.form-group textarea.filterInput {
+    height: 100px;
+    border-radius: 0px;
+    border: 1px solid #d3d3d3 !important;
+    background-color: #fff !important;
+    display: inline-table;
+    margin: 0px !important;
+    height:44px;
+    line-height:30px;
+}
+.quote-section .form-group input.filterInput {
+    height: 44px;
+    border-radius: 0px;
+    border: 1px solid #d3d3d3 !important;
+    background-color: #fff !important;
+    display: inline-table;
+    margin: 0px !important;
+}
+.quote-section .form-group input.filterInput1 {
+    height: 44px;
+    border-radius: 0px;
+    border: 1px solid #d3d3d3 !important;
+    background-color: #fff !important;
+    display: inline-table;
+    margin: 0px !important;
+}
+.quote-section .form-group select.search-box {
+    height: 44px;
+    border-radius: 0px;
+    border: 1px solid #d3d3d3 !important;
+    background-color: #fff !important;
+    display: inline-table;
+    margin: 0px !important;
+}
+.quote-section .tabSec .contentSection .filterBtn.getQuotes {
+    margin:0px !important;
+    
+}
+
+.quote-section .form-group span.input-group-addon {
+    border-radius: 0px !important;
+    border: 1px solid #d3d3d3 !important;
+    border-left: none !important;
+    padding: 0px 10px !important;
+    height: 44px !important;
+    line-height: 41px !important;
+    margin: 0px !important;
+    background: #f5f5f5 !important;
+}
+
+.Payment-Summary {
+    padding: 80px 0px 0px 0px;
+}
+.Payment-Summary.quote-section .tabSecnew {
+    padding: 50px 30px 0px !important;
+}
+.Payment-Summary.quote-section .contentSection {
+    float: left;
+    width: 100%;
+}
+.Payment-Summary  .permium-amount p{
+    color:#2491eb !important;
+    font-weight:bold;
+}
+.Payment-Summary .permium-amount small {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.Payment-Summary span.lab-txt {
+    font-size: 17px;
+    font-weight: 700;
+    color: #555;
+    line-height: 24px;
+}
+.Payment-Summary .filterBtn{
+    background-color: #2491eb;
+}
+.Payment-Summary  .filterBtn:hover {
+    background-color: #020d43;
+}
+.Payment-Summary span.inp-txt {
+    line-height: 21px;
+    padding: 5px 0px !important;
+    display: block;
+}
+.Thanku-page .card-body p {
+    margin: 20px 0px;
+    width: 100%;
+    display: inline-table;
+}
+.Thanku-page .card-body a.btn-warning {
+    color: #fff;
+    border: none;
+    background: #2491eb;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 25px;
+}
+.Thanku-page .card-body a.btn.btn-warning i.fa-file-pdf-o {
+    /* display: block; */
+    font-size: 22px;
+    margin: 0px 15px 0px 0px;
+}
+.Thanku-page .card-body a.btn-warning:hover{
+    background:#020d43;
+    color:#fff;
+}
+.Thanku-page {
+    padding: 80px 0px 0px;
+    float: left;
+    width: 100%;
+    background: #f8f8f8;
+}
+.Thanku-page .container {
+    padding: 0px;
+}
+.Thanku-page .card-body {
+    width: 50% !important;
+    margin: 0px auto;
+    background: #fff;
+    padding:50px;
+    border-radius: 0px;
+}
+.Thanku-page .card-body h2.text-white {
+    font-size: 24px;
+    text-transform: capitalize;
+    line-height: 30px;
+    color: #000;
+}
+.Thanku-page .card-body i.fa-check {
+    margin: 20px 0px ;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background: #28a745;
+    line-height: 100px;
+    text-align: center;
+    font-size: 44px;
+    color: #fff;
+}
+.Thanku-page .card-body h4.text-white {
+    background: none !important;
+    font-size: 40px;
+    text-transform: capitalize;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.Thanku-page .card-body .logo {
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.Thanku-page .card-body .logo a {
+    width: auto;
+}
+.Thanku-page .card-body .logo a img{
+    height: 50px;
+}
+.Thanku-page .card-body .like-logo {
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.Thanku-page .card-body .like-logo  img {
+    height: 100px;
+}
+.Thanku-page .card-body h3 {
+    font-size: 40px;
+    text-transform: capitalize;
+    display: inline-table;
+}
+.Thanku-page .card-body p {
+    margin: 20px 0px;
+    width: 100%;
+    display: inline-table;
+    float: left;
+    text-align: left !important;
+    line-height: 24px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.Thanku-page .Manage {
+    width: 100%;
+    display: inline-table;
+}
+.parivhn-txt {
+    font-weight: 600;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+footer{
+    float:left;
+}
+.bg {
+    float: left;
+    width: 100%;
+}
+.become-section .contentSection.become-inner {
+    background: #f8f8f8 !important;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0px !important;
+    padding: 30px !important;
+    border-radius: 0px !important;
+}
+.become-section h3.mainHeading {
+    background: #f8f8f8 !important;
+    margin: 0px !important;
+    padding: 20px 30px 0px !important;
+    border-radius: 10px 10px 0px 0px !important;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif !important;
+    color: #2491eb !important;
+}
+.validateLead-become {
+    background: #f8f8f8 !important;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0px !important;
+    padding:0px 30px 30px !important;
+    border-radius: 0px 0px 10px 10px!important;
+    margin: 0px 15px !important;
+    width: 97.4% !important;
+}
+.become-section {
+    padding-top: 150px !important;
+}
+.become-section ul.add-file li input {
+    height: 144px !important;
+}
+.become-section ul.add-file li {
+    padding-bottom: 0px !important;
+}
+.tabSec .tabbable-line > .tab-content .col-md-6 {
+    width:50%;
+    float: left !important;
+}
+.quote-section .tabSec .col-md-6 {
+    width: 50%;
+    float: left;
+}
+footer .col-md-5.ftr-left-sec{
+    float:left;
+    width: 41.66666667%;
+}
+footer .col-md-7.ftr-right-sec{
+    float:left;
+    width: 58.33333333%;;
+}
+.Contact-section {
+    padding: 140px 0px 50px;
+}
+.Contact-section form {
+    width: 80%;
+    margin: 0px auto;
+}
+.Contact-section form .input-group {
+    width: 100%;
+    padding: 0px 0px 20px;
+    float: left;
+}
+.Contact-section form .input-group:first-child {
+    width: 48%;
+}
+.Contact-section form .input-group:nth-child(2) {
+    width: 48%;
+    float: right;
+}
+.Contact-section form .input-group input {
+    border: 1px solid #ccc!important;
+    border-radius: 0px!important;
+    background: none;
+    height: 48px;
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+.Contact-section form .input-group textarea {
+    border: 1px solid #ccc!important;
+    border-radius: 0px!important;
+    background: none;
+    height: 160px;
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+.Contact-section form .input-group.submit{
+	text-align:center;
+	display:inline-table;
+}
+.Contact-section form .input-group.submit input {
+    height: 50px;
+    border-radius: 3px !important;
+    background-color: #e86335;
+    font-size: 14px;
+    padding: 0px;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-table;
+    width:25%;
+    border: none !important;
+}
+
+.Contact-section form button.btn.contact-us {
+    height: 50px;
+    border-radius: 3px !important;
+    background-color: #e86335;
+    font-size: 14px;
+    padding: 0px;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-table;
+    width:25%;
+    border: none !important;
+}
+
+.Contact-section h2.mrg-L20.ownerHeadMob {
+    width: 80%;
+    margin: 0px auto 30px!important;
+}
+
+.section-insurance .tab-content form .col-md-6:nth-child(2n+1) {
+    clear: left;
+}
+.section-insurance .form-group .search-box {
+    float: left;
+    width: 100%;
+}
+
+.section-insurance .form-group .search-box .selectize-input {
+    top: 0px !important;
+    height: 44px !important;
+    border-radius: 0px !important;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    padding: 0px 15px;
+}
+.section-insurance .form-group .search-box .selectize-input .item {
+    line-height: 44px;
+    width: 100%;
+}
+.section-insurance .form-group {
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+}
+/*----------------------Responsive----------------------*/
+@media screen and (max-width:1050px){
+.girnarlogin.login_cstm .container {
+    padding: 0px ;
+}   
+footer.footerCustom {
+    width: 100%;
+    position: relative !important;
+    margin: 0px !important;
+}
+
+.bg {
+    min-height: auto;
+}
+.girnarlogin.login_cstm .left-login {
+    padding: 20px 15px;
+    text-align: center;
+}
+.bgwall {
+    overflow-y: visible;
+}
+.girnarlogin .heading-wrap {
+    margin-top: 0px!important;
+}
+.girnarlogin .login form .form-group input {
+    background: none !important;
+    border: none !important;
+    border-bottom: 1px solid #d3d3d3 !important;
+    padding: 0px 10px 0px 35px !important;
+}
+.become-section {
+    padding: 150px 0px 70px !important;
+}
+.become-section .contentSection ul.add-file li input {
+    height: 150px !important;
+    width: 100%;
+}
+.become-section .contentSection ul.add-file li {
+    margin: 0px 5px !important;
+    padding-bottom: 30px;
+    position: relative;
+}
+.become-section .contentSection ul.add-file li:first-child {
+    margin-left: 0px !important;
+}
+.validateLead-become {
+    width: 97% !important;
+}
+.contentSection.bike_mainFilter.all_details {
+    float: left;
+    width: 100%;
+    height: auto !important;
+}
+.contentSection.bike_mainFilter.all_details {
+    padding: 15px !important;
+}
+.contentSection.bike_mainFilter.all_details .col-xs-6 {
+    padding: 0px 5px !important;
+}
+.quote-section .tabSec .contentSection .filterBtn.getQuotes {
+    margin: 0px !important;
+    width: auto !important;
+}
+.sidebar-section .sidenav {
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.sidebar-section .sidenav {
+    width: 20% !important;
+}
+.quote-section {
+    padding: 150px 0px 110px;
+    background: #fff;
+    width: 80% !important;
+    margin-left: 20% !important;
+    left: 0px !important;
+}
+.sidebar-section .side_nav:after {
+    left: 8px !important;
+}
+.sidebar-section .sidenav_icon-inactive .img-type:before {
+    left:0px !important;
+}
+.sidebar-section .sidenav_icon-active a .img-type:before {
+    left:0px !important;
+}
+.sidebar-section .sidenav_icon-completed a .img-type:before {
+    left:0px !important;
+}
+.sidebar-section .sidenav ul li a {
+    padding: 4px 10px 5px 5px !important;
+}
+.quote-section {
+    padding: 180px 0px 110px;
+}
+.Thanku-page .card-body {
+    width: 100% !important;
+    padding: 50px;
+}
+.Thanku-page .card-body .logo a img {
+    height: 30px;
+}
+.Thanku-page .card-body h3 {
+    font-size:30px;
+}
+}
+@media screen and (max-width:992px){
+.navbar.navbar-default .collapse {
+    position: relative !important;
+    left: 0px !important;
+    background: none !important;
+    display:block !important;
+}   
+.navbar.navbar-default .collapse {
+    position: relative !important;
+    left: 0px !important;
+    background: none !important;
+    display: inline-table !important;
+    height: auto !important;
+    min-height: auto !important;
+}
+.navbar .navbar-header {
+    width: auto !important;
+    float: left;
+}
+.navbar.navbar-default .collapse {
+    position: relative !important;
+    left: 0px !important;
+    background: none !important;
+    display: inline-table !important;
+    height: auto !important;
+    min-height: auto !important;
+    float: right!important;
+    width: auto !important;
+}
+}
+@media screen and (max-width:900px){
+.become-section form {
+    background: #f8f8f8;
+    border-radius: 10px;
+    padding:15px;
+}   
+.become-section h3.mainHeading {
+    background: none !important;
+    margin: 0px !important;
+    padding: 0px 0px 10px!important;
+    border-radius: 0px !important;
+    font-size: 30px !important;
+}
+.become-section .contentSection.become-inner {
+    background: none !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    border-radius:0px !important;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.3) !important;
+
+}
+.become-section .contentSection h3.SubHeading {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0px;
+    padding: 0px !important;
+}
+.validateLead-become {
+    width: 100% !important;
+    margin: 30px 0px 0px !important;
+    background: none !important;
+}
+footer .ftr-left-sec {
+    text-align: center;
+}
+footer .ftr-right-sec {
+    width: 100%;
+    display: inline-table;
+    text-align: center;
+}
+footer .ftr-right-sec ul.foot-policy {
+    margin: 0px !important;
+    display: inline-table;
+    width: auto !important;
+    float: none !important;
+}
+.become-section .contentSection.become-inner ul.add-file {
+    width: 100%;
+    float: left;
+}
+.become-section .contentSection.become-inner ul.add-file li.flt {
+    width: 48%;
+    margin: 0px !important;
+}
+.become-section .contentSection.become-inner ul.add-file li.flt:nth-child(2n) {
+    float:right !important;
+}
+.section-insurance .tab-content select {
+    width: 100% !important;
+    height: 44px;
+}
+.section-insurance section.bikeBox.mainFilter {
+    padding: 10px 15px !important;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.3) !important;
+}
+.contentSection.bike_mainFilter.all_details .col-xs-6 {
+    padding: 0px 5px 20px !important;
+    width: 33.3337% !important;
+}
+.contentSection.bike_mainFilter.all_details {
+    padding: 15px !important;
+    position: relative !important;
+}
+.sidebar-section .sidenav {
+    width: 100% !important;
+    position: relative;
+    padding: 15px;
+}
+.quote-section {
+    padding: 50px 0px;
+    width: 100% !important;
+    margin: 0px !important;
+}
+.quote-section .quote-area section.tabSec {
+    padding: 0px !important;
+}
+.tabSec .tabbable-line > .tab-content .col-md-6 {
+    width:50%;
+    float: left !important;
+}
+.quote-section .tabSec .col-md-6 {
+    width: 50%;
+    float: left;
+}
+.navbar-brand img {
+    height: 50px;
+}
+footer .col-md-5.ftr-left-sec{
+    float:left;
+    width: 100%;
+}
+footer .col-md-7.ftr-right-sec{
+    float:left;
+    width:100%;
+}
+.Transactions .table-section .dataTables_wrapper {
+    background: #f5f5f5;
+    padding: 0px 15px 15px;
+    float: left;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.07);
+    overflow: hidden;
+    overflow-x: scroll;
+}
+}
+@media screen and (max-width:768px){
+.navbar.navbar-default .collapse.navbar-collapse {
+    display: none !important;
+}
+.navbar.navbar-default button.navbar-toggle {
+    position: absolute;
+    right: 0px;
+    margin: 0px;
+    top: 22px !important;
+}
+.navbar.navbar-default .collapse.navbar-collapse.in {
+    display: block !important;
+    position: absolute !important;
+    width: 100% !important;
+    top: 100% !important;
+    background: #2491eb !important;
+    padding: 0px;
+    margin:0px !important;
+}
+.navbar.navbar-default .collapse.navbar-collapse ul.nav.navbar-nav {
+    padding: 0px;
+    margin: 0px !important;
+    width: 100% !important;
+    float: left !important;
+}
+.navbar.navbar-default .collapse.navbar-collapse ul.nav.navbar-nav li {
+    display: block !important;
+    width: 100% !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+.navbar.navbar-default .collapse.navbar-collapse ul.nav.navbar-nav li:last-child {
+    border-bottom: none!important;
+}
+.navbar.navbar-default .collapse.navbar-collapse ul.nav.navbar-nav li a {
+    color: #000 !important;
+}
+.navbar.navbar-default .collapse.navbar-collapse ul.nav.navbar-nav li a i {
+    color: #000 !important;
+}
+.navbar.navbar-default .collapse.navbar-collapse ul.nav.navbar-nav ul.dropdown-menu {
+    width: 100% !important;
+    border: none !important;
+    position: relative !important;
+    background: #2491eb !important;
+    box-shadow: 0px 0px 0px #000 !important;
+}
+.navbar.navbar-default .collapse.navbar-collapse ul.nav.navbar-nav ul.dropdown-menu li {
+    border-top: 1px solid rgba(255, 255, 255, 0.3) !important;
+    border-bottom: none !important;
+}
+.container {
+    padding: 0px 15px !important;
+}
+.section-insurance h3.mainHeading.mainHeading_2 {
+    padding: 20px 15px 0px;
+}
+.section-insurance .tab-content button.getQuotes {
+    width: auto !important;
+    padding: 18px 40px !important;
+}
+.navbar.navbar-default button.navbar-toggle span.icon-bar {
+    background: #000 !important;
+}
+.contentSection.bike_mainFilter.all_details .col-xs-6 {
+    padding: 0px 5px 0px !important;
+    width: 50% !important;
+    margin: 0px !important;
+    height: auto !important;
+}
+.contentSection.bike_mainFilter.all_details .col-xs-6 ul {
+    margin: 0px;
+    padding: 0px !important;
+    float: left;
+    width: 100%;
+}
+.contentSection.bike_mainFilter.all_details .col-xs-6 ul li {
+    min-height: auto !important;
+}
+.sidebar-section .sidenav.leftSideNav {
+    padding: 0 15px !important;
+    margin-top: 0px !important;
+}
+.sidebar-section .sidenav.leftSideNav a.currentPage1 {
+    color: #2491eb !important;
+}
+.quote-section .tabSec .tabbable-line > .nav-tabs a {
+    padding: 10px !important;
+}
+.quote-section .tabSec .contentSection.sec_bankList li.silgleList {
+    box-shadow: 0 0px 6px rgba(0, 0, 0, 0.3) !important;
+    border: 0 !important;
+}
+.quote-section .tabSec .contentSection .filterBtn.getQuotes {
+    margin: 10px 0px 0px !important;
+    width: auto !important;
+}
+.quote-section .tabSec .tabbable-line > .tab-content {
+    padding: 0px 15px;
+}
+.premium_data .modal-body li {
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.3) !important;
+    border-radius: 0px !important;
+}
+.quote-section .tabSec {
+    padding: 0px 15px !important;
+}
+.quote-section .tabSec .sec_bankList .card.offlineCard {
+    padding: 0px !important;
+    box-shadow: 0px 0px 0px #000 !important;
+}
+.quote-section section.tabSec h2.ownerHeadMob {
+    margin: 0px !important;
+    padding:0px !important;
+}
+.sidebar-section .sidenav .sidenav_icon-active a {
+    color: #2491eb !important;
+}
+.Payment-Summary.quote-section .contentSection {
+    float: left;
+    width: 100%;
+    padding: 0px 15px 0px !important;
+}
+.Payment-Summary.quote-section .contentSection .mob-mrgAll15 {
+    margin: 0px 15px 15px !important;
+}
+.tabSec .tabbable-line > .tab-content .col-md-6 {
+    width: 50%;
+    float: left !important;
+}
+.quote-section .tabSec .col-md-6 {
+    width: 50%;
+    float: left;
+}
+}
+@media screen and (max-width:767px){
+.girnarlogin.login_cstm .container {
+    padding: 0px 15px;
+}  
+.sec_tab.sectionHeader2.carInfo.new-section {
+    box-shadow: 0px 0px 0px #000 !important;
+    margin-top: 70px !important;
+}
+.navbar-brand img {
+    height: 50px;
+}
+nav.navbar.navbar-default {
+    min-height: 60px!important;
+}
+footer.footerCustom .ftr-right-sec {
+    width: 100%;
+    display: inline-table;
+}
+footer.footerCustom .ftr-right-sec ul.foot-policy.clearfix {
+    display: inline-table;
+    float: none;
+    width: 100%;
+}
+.become-section {
+    padding: 130px 15px 50px !important;
+}
+.navbar .collapse ul li.become_pos_nav_li a {
+    padding: 0px;
+}
+.copyright {
+    opacity: 1 !important;
+
+}
+ul.foot-policy a {
+    font-weight: normal !important;
+    color: #fff !important;
+}
+.copyright span.ftr-cotyright-txt br {
+    display: none;
+}
+.navbar.navbar-default button.navbar-toggle {
+    top: 18px !important;
+}
+.tabSec .tabbable-line > .tab-content .col-md-6 {
+    width:50%;
+    float: left !important;
+}
+.quote-section .tabSec .col-md-6 {
+    width:50%;
+    float: left;
+}
+.Transactions .row {
+    margin: 0px !important;
+}
+.Transactions .table-section .dataTables_wrapper .col-sm-12.col-md-6 {
+    float: left;
+}
+}
+@media screen and (max-width:420px){
+.Transactions .table-section .col-sm-12 {
+    padding: 0px;
+}
+.dataTables_paginate ul.pagination li a {
+    padding: 5px 8px;
+}
+.Transactions .heading-wrap h1 {
+    font-size: 18px !important;
+    padding: 15px 15px 0px;
+    line-height: 30px;
+}
+.Transactions .table-section input.form-control {
+    width: 150px;
+}
+.girnarlogin.login_cstm .left-login img {
+    width: 100%;
+}  
+nav.navbar.navbar-default {
+    min-height: 60px!important;
+    padding: 0px !important;
+}
+nav.navbar.navbar-default .navbar-brand {
+    padding: 15px !important;
+}
+.navbar-brand img {
+    height: 30px;
+}
+.bePOS-btn {
+    padding: 6px 9px;
+    margin-top: 17px;
+    font-size: 10px;
+}
+.girnarlogin.login_cstm .right-login {
+    padding: 0px 15px;
+}
+.girnarlogin .heading-wrap h1 span {
+    font-size: 17px !important;
+}
+footer.footerCustom {
+    width: 100%;
+    position: relative !important;
+    margin: 0px !important;
+    padding: 0px 10px !important;
+}
+.girnarlogin.login_cstm {
+    padding: 120px 0px 0px;
+}
+.navbar .collapse ul li a {
+    border: none !important;
+    padding: 0px 10px;
+    line-height: 26px;
+    margin: 0px !important;
+    height: auto !important;
+    font-size: 12px !important;
+}
+.become-section .contentSection.become-inner ul.add-file li.flt {
+    width: 100%;
+    margin: 0px 0px 20px!important;
+}
+.navbar.navbar-default button.navbar-toggle {
+    top: 12px !important;
+}
+.sec_tab.carInfo.new-section .subHeading a {
+    font-size: 12px !important;
+    padding: 10px 0px !important;
+}
+.section-insurance .tab-content button.getQuotes {
+    padding: 13px 40px !important;
+}
+.sec_tab.sectionHeader2.carInfo.new-section {
+    margin-top: 60px !important;
+}
+.Thanku-page .card-body {
+    width: 100% !important;
+    padding: 30px 20px;
+}
+.Thanku-page{
+    padding:100px 0px 50px;
+}
+.tabSec .tabbable-line > .tab-content .col-md-6 {
+    width:100%;
+    float: left !important;
+}
+.quote-section .tabSec .col-md-6 {
+    width:100%;
+    float: left;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
